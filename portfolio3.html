@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Niranjana's PortFolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+  const header = document.querySelector('.navbar');
+
+window.onscroll = function() {
+    var top = window.scrollY;
+    if(top >=100) {
+        header.classList.add('navbarDark');
+    }
+    else {
+        header.classList.remove('navbarDark');
+    }
+}
+</script>
+
+  <link rel="stylesheet" href="style3.css">
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Niranjana's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Eperience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Niranjana</h2>
+                <p class="hero_desc">I am a Upcoming FullStack Developer</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="niranjana photo.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I am a dedicated student currently pursuing a Bachelor of Engineering in Computer Science at PSNA
+                        College of Engineering and Technology.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name: Niranjana</li>
+                                <li>Age: 19</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> With a strong passion for technology and a commitment to academic excellence, I am actively engaged in honing my programming and problem-solving skills to prepare for a
+                            successful career in the dynamic field of computer science.I am learning the fundamentals and advanced concepts of programming, data structures, algorithms, databases, and web technologies. I am passionate about web development and eager to apply my skills and knowledge to solve real-world problems and create innovative solutions. I am looking for opportunities to grow and learn as a web developer and to work with a diverse and talented team.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <section id="#skills" >
+        <h1 class="text-center"> Skills</h1>
+        <div class="container1">
+            <div class="col">
+              <h2 class="titulo">Programación</h2>
+              <ul class="skill">
+                <li><span class="blueline html"></span><em>HTML</em></li>
+                <li><span class="blueline css"></span><em>CSS</em></li>
+                <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+              </ul>
+            </div>
+              <div class="col">
+              <h2 class="plataformas">Plataformas</h2>
+              <ul class="skill">
+                <li><span class="greenline wordpress"></span><em>Microsoft Office</em></li>
+                <li><span class="greenline prestashop"></span><em>Visual Studio Code</em></li>
+                <li><span class="greenline joomla"></span><em>Java FX</em></li>
+              </ul>
+            </div>
+              <div class="col">
+              <h2 class="programas">Programas</h2>
+              <ul class="skill">
+                <li><span class="redline dreamweaver"></span><em>C Programming</em></li>
+                <li><span class="redline illustrator"></span><em>Python</em></li>
+                <li><span class="redline photoshop"></span><em>Java</em></li>
+              </ul>
+            </div>
+          </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Education,Experience And Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-graduation-cap"></i>
+                            <h4 class="card-title mt-3">Education</h4>
+                            <p class="card-text mt-3">I am currently pursuing a Bachelor of Engineering, a comprehensive four-year program that equipped me with strong technical knowledge and problem-solving skills in various engineering disciplines, fostering innovation and teamwork.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-briefcase'></i>
+                            <h4 class="card-title mt-3">Experience</h4>
+                            <p class="card-text mt-3">During my internship at Sync Intern's from March to April 2023 , I successfully developed a product landing page, a music application, a quiz application, and an e-learning website, contributing to diverse web-based projects with creativity and proficiency.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Front-End Development</h4>
+                            <p class="card-text mt-3">As a front-end developer,I focus on creating the user interface and user experience of websites or applications. I work with HTML, CSS, and JavaScript to ensure a visually appealing and responsive design for optimal user interaction.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <section id="portfolio">
+                <div class="container mt-3">
+                    <h1 class="text-center">Portfolio</h1>
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card">
+                                <img class="card-img-top" src="stellar.jpg" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                    <h4 class="card-title">Stellar</h4>
+                                    <p class="card-text">Stellar Skin Care Consultancy: Your guide to radiant skin. Explore expert advice, personalized routines, and top-notch product recommendations for a healthier, glowing complexion. Discover your best skin today!</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-success">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 mt-4">
+                            <div class="card portfolioContent">
+                                <img class="card-img-top" src="quiz.jpg" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                    <h4 class="card-title">Quiz App</h4>
+                                    <p class="card-text">A quiz website offers a diverse range of interactive quizzes, spanning topics like trivia, education, and entertainment. Users can test their knowledge, learn new facts, and compete with others for fun and prizes.</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-success">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 mt-4">
+                            <div class="card portfolioContent">
+                                <img class="card-img-top" src="coffee.png" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                    <h4 class="card-title">Product Landing Page</h4>
+                                    <p class="card-text">Indulge in the rich aroma and flavor of our handcrafted coffees on our inviting product landing page. Discover a delightful selection of premium blends and brewing accessories, designed to elevate your coffee experience.</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-success">Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <br>
+            <div class="col-lg-6">
+            
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                
+            </div>
+            <footer id="footer">
+                <div class="container-fluid">
+                    
+                    <div class="social-icons mt-4">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </footer>
+        
+            
+         
+        
+        </body>
+        
+        </html>
+                
